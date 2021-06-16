@@ -1,7 +1,6 @@
 package br.com.lf.wsapi.dto;
 
 import java.io.Serializable;
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
@@ -9,6 +8,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @Setter
 @NoArgsConstructor
+
 public class MatchGoogleDTO implements Serializable{
 	
 	private static final long seriaVersionUID = 1L;
